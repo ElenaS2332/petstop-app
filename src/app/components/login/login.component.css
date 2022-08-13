@@ -1,0 +1,14 @@
+.login-div mat-card{
+    text-align: center;
+    padding: 60px;
+    background-color: rgba(15, 126, 58, 0.647);
+}
+.login-div mat-card-title{
+    font-weight: 700;
+}
+.login-div input{
+    margin: 10px 0;
+}
+.login-div button{
+    margin-top: 15px;
+}

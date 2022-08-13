@@ -1,0 +1,13 @@
+<div fxLayoutAlign="center center" fxFlexFill class="home-main-div">
+    <mat-card fxFlex="40" fxLayoutAlign="stretch" fxLayout="column">
+        <ng-container *ngIf="user$ | async as user">
+            <mat-card-title>Welcome to the home page, {{user.displayName}}!</mat-card-title>
+        </ng-container>
+    
+        <mat-toolbar class="pointer" routerLink="pets" color="accent" (click)="redirectToPets()"><span style="margin-left: 155px;">Choose your pet</span></mat-toolbar><br/>
+        <mat-toolbar class="pointer" routerLink="vet" color="accent" (click)="redirectToVet()"><span style="margin-left: 150px;">Find the closest vet</span></mat-toolbar><br/>
+        <mat-toolbar class="pointer" routerLink="adoption" color="accent" (click)="redirectToAdoption()"><span style="margin-left: 190px;">Adoption</span></mat-toolbar>
+    </mat-card>
+    
+</div>
+

@@ -1,0 +1,29 @@
+.main-div mat-card{
+    height: 400px;
+    width: 400px;
+    padding: 60px;
+    text-align: center;
+    background-color: rgba(15, 126, 58, 0.647);
+    font-size: 18px;
+}
+
+.main-div a{
+    margin: 20px 0;
+    width: 500px;
+    font-size: 18px;
+}
+.main-div mat-toolbar:first-of-type{
+    text-align: center;
+    background-color: rgba(15, 126, 58, 0.647);
+}
+.main-div mat-card-title{
+    font-weight: 700;
+}
+
+.main-div mat-toolbar:last-child{
+    background: none;
+    border: 0;
+    margin-left: 110px;
+}
+
+

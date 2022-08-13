@@ -1,0 +1,19 @@
+<div fxLayoutAlign="center center" fxFlexFill class="main-div mat-elevation-z5" >
+    <mat-card fxFlex="40" fxLayoutAlign="stretch" fxLayout="column">
+      <mat-card-title >Welcome to PetStop</mat-card-title><br/>
+         
+      <!-- <ng-container *ngIf="authService.currentUser$ | async as user; else loginButton">
+        <button mat-raised-button type="submit" color="primary" (click)="logout()" routerLink="''">Logout</button>
+      </ng-container> -->
+  
+      <!-- <ng-template #loginButton> -->
+        <a mat-raised-button color="primary" routerLink="/login">Log In</a>
+      <!-- </ng-template> -->
+  
+      
+      <mat-toolbar>Or if you don't have an account</mat-toolbar>
+      <a mat-raised-button routerLink="/sign-up">Create a new account</a>
+  
+  
+    </mat-card>
+  </div>

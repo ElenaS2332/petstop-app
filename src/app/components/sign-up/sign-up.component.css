@@ -1,0 +1,13 @@
+.sign-up-div mat-card{
+    text-align: center;
+    padding: 60px;
+}
+.sign-up-div mat-card-title{
+    font-weight: 700;
+}
+.sign-up-div input{
+    margin: 10px 0;
+}
+.sign-up-div button{
+    margin-top: 15px;
+}

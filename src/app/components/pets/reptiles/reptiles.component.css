@@ -1,0 +1,42 @@
+.reptiles-main-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 150px;
+    margin: 10px 110px;
+}
+.reptiles-cards{
+    margin: 10px 5px;
+    width: 300px;
+    height: 455px;
+    border-radius: 30px;
+}
+.reptiles-header{
+    height: 40px;
+}
+.reptiles-header, .reptiles-image{
+    text-align: center;
+    width: 250px;
+    font-size: 16px;
+    margin: auto;
+}
+
+.reptiles-buttons{
+    margin: auto;
+    text-align: center;
+}
+
+
+.pointer{
+    cursor: pointer;
+    color: black;
+}
+.icons{
+    width: 100px;
+    text-align: center;
+    margin: 5px auto;
+}
+.icons a{
+    margin: 0 10px;
+}
