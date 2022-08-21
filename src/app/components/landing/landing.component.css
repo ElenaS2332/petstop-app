@@ -1,6 +1,6 @@
 .main-div mat-card{
     height: 400px;
-    width: 400px;
+    min-width: 280px;
     padding: 60px;
     text-align: center;
     background-color: rgba(15, 126, 58, 0.647);
@@ -9,8 +9,13 @@
 
 .main-div a{
     margin: 20px 0;
-    width: 500px;
+    width: 100%;
     font-size: 18px;
+    text-decoration: none;
+}
+.main-div a:hover{
+    text-decoration: none;
+    color: white;
 }
 .main-div mat-toolbar:first-of-type{
     text-align: center;
@@ -20,10 +25,12 @@
     font-weight: 700;
 }
 
-.main-div mat-toolbar:last-child{
+.main-div div{
     background: none;
     border: 0;
-    margin-left: 110px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 500;
 }
 
 

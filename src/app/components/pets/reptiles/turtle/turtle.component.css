@@ -1,6 +1,7 @@
 
 .turtle-main-div{
-    width: 800px;
+    min-width: 280px;
+    max-width: 800px;
     margin: 50px auto;
     text-align: center;
     height: 70px;
@@ -10,7 +11,8 @@
  
 .turtle-container{
     margin: auto;
-    width: 800px;
+    min-width: 280px;
+    max-width: 800px;
 } 
 
 

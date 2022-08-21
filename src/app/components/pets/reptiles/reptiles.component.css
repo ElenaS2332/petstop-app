@@ -1,14 +1,12 @@
 .reptiles-main-div{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 50px 150px;
-    margin: 10px 110px;
+    min-width: 280px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 60px;
 }
 .reptiles-cards{
-    margin: 10px 5px;
-    width: 300px;
+    margin-bottom: 10px;
+    min-width: 280px;
     height: 455px;
     border-radius: 30px;
 }
@@ -35,7 +33,7 @@
 .icons{
     width: 100px;
     text-align: center;
-    margin: 5px auto;
+    margin: -40px auto 10px auto;
 }
 .icons a{
     margin: 0 10px;

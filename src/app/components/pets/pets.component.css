@@ -1,25 +1,20 @@
 .pets-main-div{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 50px 150px;
-    margin: 10px 110px;
+    min-width: 280px;
+    text-align: center;
+    padding: 0;
+    padding: 40px 60px;
 }
 .pet-cards{
-    margin: 10px 5px;
-    width: 300px;
+    min-width: 280px;
     height: 455px;
     border-radius: 30px;
+    margin-bottom: 10px;
 }
 .pet-header{
     height: 40px;
 }
 .pet-header, .pet-image{
-    text-align: center;
-    width: 250px;
     font-size: 16px;
-    margin: auto;
 }
 
 .pet-buttons{
@@ -33,8 +28,9 @@
 .icons{
     width: 100px;
     text-align: center;
-    margin: 5px auto;
+    margin: -40px auto 10px auto;
 }
+
 
 
 

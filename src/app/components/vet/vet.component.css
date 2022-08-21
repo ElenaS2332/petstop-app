@@ -1,7 +1,21 @@
-*{
-    margin: auto;
+google-map{
+    min-width: 280px;
 }
-#map{
-    height: 60vh;
-    width: 80vh;
+.my-google-map{
+    min-width: 280px;
+    width: 400px;
+    height: 600px;
+    margin: 20px auto;   
+}
+.pointer{
+    cursor: pointer;
+    color: black;
+}
+.icons{
+    width: 100px;
+    text-align: center;
+    margin: 5px auto;
+}
+.icons a{
+    margin: 0 10px;
 }

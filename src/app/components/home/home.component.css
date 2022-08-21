@@ -1,17 +1,26 @@
 
-
+.home-main-div{
+    height: 500px;
+}
 .home-main-div mat-card{
-    height: 460px;
-    width: 480px;
+    height: 360px;
+    min-width: 280px;
     padding: 60px;
     text-align: center;
+    margin: auto;
 }
 
-.home-main-div mat-card mat-toolbar{
+.home-main-div a{
     border-radius: 10px;
-    text-align: center;
+    line-height: 60px;
     margin-top: 30px;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+
 }
 .pointer{
     cursor: pointer;
 }
+
+

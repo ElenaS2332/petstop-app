@@ -2,6 +2,7 @@ import { Component, OnDestroy } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthenticationService } from './services/authentication.service';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,6 +10,7 @@ import { AuthenticationService } from './services/authentication.service';
 })
 export class AppComponent implements OnDestroy {
   title = 'petStop-app';
+
 
   constructor(public authService: AuthenticationService, private router: Router){
   }

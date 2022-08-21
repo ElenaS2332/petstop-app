@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
-import {MatButtonModule} from '@angular/material/button';
-import {MatCardModule} from '@angular/material/card';
-import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatToolbarModule} from '@angular/material/toolbar';
 import { ReactiveFormsModule } from '@angular/forms';
-import {MatMenuModule} from '@angular/material/menu';
-import {MatGridListModule} from '@angular/material/grid-list';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -55,9 +55,9 @@ import { FishInterestComponent } from './components/pets/fish/fish-interest/fish
 import { HorseComponent } from './components/pets/horse/horse.component';
 import { HorseInterestComponent } from './components/pets/horse/horse-interest/horse-interest.component';
 import { BirdsInterestComponent } from './components/pets/birds/birds-interest/birds-interest.component';
-import {MatIconModule} from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
 import { CookieService } from 'ngx-cookie-service';
-
+import { GoogleMapsModule } from '@angular/google-maps';
 
 
 @NgModule({
@@ -117,7 +117,8 @@ import { CookieService } from 'ngx-cookie-service';
     ReactiveFormsModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
-    HotToastModule.forRoot()
+    HotToastModule.forRoot(),
+    GoogleMapsModule
   ],
   entryComponents: [CatComponent, DogComponent, HamsterComponent,
   GuineaPigComponent, RabbitComponent, PigComponent, OtterComponent,

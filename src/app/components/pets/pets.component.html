@@ -1,7 +1,5 @@
 
-
-
-<div class="pets-main-div">
+<div class="pets-main-div d-flex justify-content-evenly align-content-around flex-wrap">
     <mat-card class="pet-cards" *ngFor="let animal of animals">
         <div class="pet-header">
             
@@ -23,8 +21,9 @@
                 <button mat-raised-button color="primary" (click)="navigate(animal.slug)">See more</button>
             </mat-card-actions>
         </div>
-        
     </mat-card>
+</div>
+<footer>
     <div class="icons">
         <a routerLink="/home" class="pointer">
             <span class="material-icons">
@@ -32,6 +31,6 @@
             </span>
         </a>    
     </div>
-</div>
+</footer>
         
     

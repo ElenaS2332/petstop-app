@@ -1,19 +1,31 @@
 .interest-container{
-    width: 800px;
+    max-width: 1200px;
+    min-width: 280px;
     margin: 20px auto;
 }
+#frog-left{
+    float: left;
+    margin-top: 100px;
+}
+
 #carouselExampleIndicators{
-    width: 800px;
-    height: 550px;
-    background-color: rgba(90, 195, 52, 0.529);
-    padding: 60px 80px 50px 80px;
+    max-height: 1200px;
+    min-width: 280px;
+    min-height: 570px;
+    background-color: rgba(62, 173, 56, 0.553);
+    padding: 25px;
     display: flex;
+    align-items: center;
+    border-radius: 20px;
 }
 .pointer{
     cursor: pointer;
     color: black;
 }
 
+.carousel-control-prev, .carousel-control-next{
+    width: 30px;
+}
 
 .carousel-item p{
     text-align: justify;
@@ -32,15 +44,50 @@
     margin: 0 10px;
 }
 
-.image{
-    width: 250px;
-    height: 350px;
-}
+
 .flex-container{
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
+
 }
-img{
-    border: 2px solid white;
+
+.image img{
+    border-radius: 20px;
+}
+
+#frog-up{
+    margin: 0 0 -20px 180px;
+    text-align: center;
+}
+
+
+@media  only screen and (max-width: 950px) {
+    #frog-up{
+        margin: 0 0 -20px 220px;
+
+    }
+}
+@media  only screen and (max-width: 800px) {
+    #frog-up{
+        margin: 0 auto -20px auto;
+
+    }
+}
+
+
+@media  only screen and (max-width: 800px) {
+    #frog-left{
+        display: none;
+    }
+    /* #frog-up{
+        margin: 0 auto -45px auto;
+
+    } */
+}
+@media  only screen and (max-width: 415px) {
+    #frog-up{
+        display: none;
+    }
 }

@@ -1,6 +1,7 @@
 
 .cat-main-div{
-    width: 800px;
+    min-width: 280px;
+    max-width: 800px;
     margin: 50px auto;
     text-align: center;
     height: 70px;
@@ -10,7 +11,8 @@
  
 .cat-container{
     margin: auto;
-    width: 800px;
+    max-width: 800px;
+    min-width: 280px;
 } 
 
 
@@ -40,3 +42,4 @@ button{
 .icons a{
     margin: 0 10px;
 }
+

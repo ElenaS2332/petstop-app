@@ -1,19 +1,30 @@
 .interest-container{
-    width: 800px;
+    max-width: 1200px;
+    min-width: 280px;
     margin: 20px auto;
 }
+#cat-left{
+    float: left;
+}
+
 #carouselExampleIndicators{
-    width: 800px;
-    height: 550px;
-    background-color: rgba(90, 195, 52, 0.529);
-    padding: 60px 80px 50px 80px;
+    max-height: 1200px;
+    min-width: 280px;
+    min-height: 570px;
+    background-color: rgba(136, 49, 110, 0.51);
+    padding: 25px;
     display: flex;
+    align-items: center;
+    border-radius: 20px;
 }
 .pointer{
     cursor: pointer;
     color: black;
 }
 
+.carousel-control-prev, .carousel-control-next{
+    width: 30px;
+}
 
 .carousel-item p{
     text-align: justify;
@@ -32,15 +43,34 @@
     margin: 0 10px;
 }
 
-.image{
-    width: 250px;
-    height: 350px;
-}
+
 .flex-container{
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
+
 }
-img{
-    border: 2px solid white;
+
+.image img{
+    border-radius: 20px;
+}
+
+#cat{
+    margin: 0 auto -20px auto;
+    text-align: center;
+}
+
+
+
+
+@media  only screen and (max-width: 800px) {
+    #cat-left{
+        display: none;
+    }
+}
+@media  only screen and (max-width: 350px) {
+    #cat{
+        display: none;
+    }
 }

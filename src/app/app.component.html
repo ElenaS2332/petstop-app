@@ -1,6 +1,6 @@
 
   <nav class="navbar navbar-expand-lg bg-dark" *ngIf="authService.currentUser$ | async as user">
-    <div class="navbar-brand brand-shaddow container-fluid" data-text="petstop">PetStop</div>
+    <div class="navbar-brand brand-shaddow" data-text="petstop">PetStop</div>
     <div class="menu-container">
       <button class="menu-toggler" >Menu</button>
       <div class="drobdown-menu">
@@ -13,9 +13,6 @@
           </li>
           <li>
             <a color="primary" mat-button  routerLink="/vet">Vet</a>
-          </li>
-          <li>
-            <a color="primary" mat-button routerLink="/adoption">Adoption</a>
           </li>
           <li>
             <a color="primary" mat-button  class="pointer" (click)="logout()" >Log Out</a>

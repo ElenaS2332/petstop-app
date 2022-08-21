@@ -26,9 +26,9 @@ export class LizardInterestService {
     firstParagraph:'You can feed your lizard live food. Live crickets and worms provide the perfect amount of protein and are closest to the way your reptile would eat in the wild. Coat live food with calcium dust to keep your reptile’s bones healthy. Commercial reptile food provides a complete, vitamin-rich diet for many reptiles. Mix with freeze-dried or live foods to help your lizard get used to eating it. Feeding it treats, including freeze-dried foods, is a great way to bond with it. Treats can also be a great source of protein.',
     secondParagraph: 'Bearded Dragons are omnivores and can eat a range of insects, fruit and vegetables. One of the most important things about your bearded dragon’s diet is variety, they need a varied diet and the amount of edible options makes them a fun reptile to feed, as anyone who has seen one chase a cricket will know.',
     thirdParagraph: 'Adult Bearded Dragons should be fed once a day however baby bearded dragons will need to be fed more often than older beardies. Bearded Dragons can eat a wide range of live food such as crickets, mealworms and kingworms; vegetables such as sweet potato and pepper and leafy greens such as kale and parsley . They can also eat limited amounts of fruit.',
-    image1: 'assets/reptiles/lizard/lizard-feeding1.png',
-    image2: 'assets/reptiles/lizard/lizard-feeding2.png',
-    image3: 'assets/reptiles/lizard/lizard-feeding3.png',
+    image1: 'assets/reptiles/lizard/liard-feeding1.png',
+    image2: 'assets/reptiles/lizard/liard-feeding2.png',
+    image3: 'assets/reptiles/lizard/liard-feeding3.png',
   
   
   

@@ -23,11 +23,9 @@ export class PigInterestService {
     firstParagraph:'Your pig will enjoy a bed of deep, clean straw or litter. If there are other pigs present, they will often be seen cuddling up to each other in these situations. They are basically very clean animals, and will not urinate or defecate on their bedding, but will do so in a corner of their pen, away from their bedding. ',
     secondParagraph: 'Pigs also hate extreme weather conditions, be it cold winds and draughts or soaring temperatures and humidity. So, ensure that their pens are draught-free, and you are able to get a good circulation of air when temperatures rise. Pigs will tolerate temperatures between 12-26°C. Anything, either side of these temperatures, and your pet pig will be in distress.',
     thirdParagraph: 'If you keep your pig outside, make sure it has about 8 square feet of space and the floor finish should be a concrete screed that has been roughly finished so that your pig always has sure footing. There should also be an area in front of his pen that is adequately fenced off that is also cemented to prevent muddy and smelly conditions. Here the pigs can sun themselves when they need to, get some exercise, and relieve themselves. Outdoor houses can be packed with straw or hay.',
-    forthParagraph: 'But if you want to keep an indoor pig, first of all beware that they can grow up very big and very quickly. You’ll need enough space to sleep inside. Make a comfortable cozy bed filled with bedding; a large crate or a children’s play tent are all good. Pigs living indoors need comfortable soft bedding. Dog beds, blankets, and even straw work well. ',
-    fifthParagraph: 'Of course, your piggy will love to sleep on the bed with you. Unless you don’t mind this being every night occurrence, don’t get it started! But remember, we recommend against keeping pet pigs in apartments, condos, or rentals. Pigs need ample outdoor space, which cannot be provided in an apartment or condo. Renters are too often at the mercy of their landlord and cannot provide a stable home for a pig. Even if a landlord approves a pig as a tenant, frequently, a renter will move and be unable to find another rental that allows pigs.',
-    sixthParagraph: '',
-    seventhParagraph: '',
-  
+    image1:'assets/pig/pig-sleeping1.png',
+    image2:'assets/pig/pig-sleeping2.png',
+    image3:'assets/pig/pig-sleeping3.png',
   
   
   
