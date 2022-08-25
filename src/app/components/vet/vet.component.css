@@ -34,3 +34,28 @@
 .icons a{
     margin: 0 10px;
 }
+@media  only screen and (max-width: 1180px) {
+    .map-page{
+        margin-left: 30px;
+    }
+}
+@media  only screen and (max-width: 900px) {
+    .map-page{
+        margin-left: 20px;
+    }
+}
+@media  only screen and (max-width: 700px) {
+    .map-page{
+        margin-left: 15px;
+    }
+}
+@media  only screen and (max-width: 560px) {
+    .map-page{
+        margin-left: 12px;
+    }
+}
+@media  only screen and (max-width: 400px) {
+    .map-page{
+        margin-left: 8px;
+    }
+}

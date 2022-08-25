@@ -12,7 +12,7 @@ import {
   signInWithPopup,
   
 } from '@angular/fire/auth';
-import { concatMap, from, Observable, of, switchMap } from 'rxjs';
+import { concatMap, from, Observable, Observer, of, switchMap } from 'rxjs';
 import { HotToastService } from '@ngneat/hot-toast';
 import { Router } from '@angular/router';
 import { CookieService } from 'ngx-cookie-service';
@@ -67,5 +67,7 @@ export class AuthenticationService {
   //   });
     
   // }
+
+  
 
 }
