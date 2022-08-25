@@ -1,10 +1,15 @@
 <div  class="home-main-div">
-    <mat-card fxFlex="45"  fxLayout="column">
+    
+    <mat-card fxFlex="45"  fxLayout="column" style="flex-direction: column; box-sizing: content-box; display: flex;
+    flex: 1 1 100%; max-width: 30%; ">
         <ng-container *ngIf="user$ | async as user">
             <mat-card-title>Welcome, {{user.displayName}}!</mat-card-title>
         </ng-container>
         <a mat-raised-button class="pointer" routerLink="/pets" color="accent">Choose your pet</a><br/>
         <a mat-raised-button class="pointer" routerLink="/vet" color="accent">Find vet</a><br/>
     </mat-card>
+ 
 </div>
-
+<footer>
+    <img src="assets/pets.png">
+</footer>

@@ -1,13 +1,15 @@
 
 .home-main-div{
-    height: 500px;
+    height: 360px;
+    width: 100%;
 }
 .home-main-div mat-card{
-    height: 360px;
+    height: 320px;
     min-width: 280px;
-    padding: 60px;
+    max-width: 520px;
+    padding: 50px;
     text-align: center;
-    margin: auto;
+    margin: 20px auto 0 auto;
 }
 
 .home-main-div a{
@@ -21,6 +23,19 @@
 }
 .pointer{
     cursor: pointer;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    margin: 0 auto;
+}
+
+
+@media  only screen and (max-width: 520px) {
+    footer{
+        display: none;
+    }
 }
 
 
