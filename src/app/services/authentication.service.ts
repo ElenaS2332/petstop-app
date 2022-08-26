@@ -43,7 +43,7 @@ export class AuthenticationService {
 
   signUp(name: any, email: any, password: any): Observable<any>{
   
-    this.router.navigate(['home'])
+    this.router.navigate(['login'])
     return from(createUserWithEmailAndPassword(this.auth, email, password)).pipe(
       switchMap(({ user }) => updateProfile(user, {displayName:name} ))
     );

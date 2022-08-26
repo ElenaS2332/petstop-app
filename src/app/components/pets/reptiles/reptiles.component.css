@@ -25,7 +25,12 @@
     text-align: center;
 }
 
-
+.reptiles-buttons button{
+    width: 100px;
+    float: right;
+    height: 55px;
+    border-radius: 50px;
+}
 .pointer{
     cursor: pointer;
     color: black;
@@ -37,4 +42,9 @@
 }
 .icons a{
     margin: 0 10px;
+}
+audio{
+    width: 145px;
+    display: inline;
+    
 }

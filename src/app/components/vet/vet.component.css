@@ -1,13 +1,6 @@
-/* google-map{
-    min-width: 280px;
+header{
+    margin: 20px 0 -20px 0;
 }
-.my-google-map{
-    min-width: 280px;
-    width: 400px;
-    height: 600px;
-    margin: 20px auto;   
-} */
-
 .map-page{
     text-align: center;
     margin-left: 40px;
@@ -19,9 +12,7 @@
     width: 95%;
     height: 70%;
 }
-/* footer{
-    display: none;
-} */
+
 .pointer{
     cursor: pointer;
     color: black;

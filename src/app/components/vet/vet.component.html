@@ -1,23 +1,5 @@
 
-<!-- <div class="my-google-map">
-    <google-map [width]="400" [options]="mapOptions" [style]="mapStyle">
-       <map-marker #markerElem *ngFor="let marker of markers" [position]="marker.position" 
-        
-         (mapClick)="openInfo(markerElem)" >
-         <map-info-window>
-          Bla
-        </map-info-window>
-      </map-marker>
-      
-      
-    </google-map>
- </div> -->
-  <div class="map-page"> 
-    <div #map id="map-canvas"></div>
-  </div>
-  
-  
-<footer>
+ <header>
   <div class="icons">
     <a routerLink="/home" class="pointer">
         <span class="material-icons">
@@ -25,4 +7,10 @@
         </span>
     </a>    
   </div>  
- </footer>
+</header>
+  <div class="map-page"> 
+    <div #map id="map-canvas"></div>
+  </div>
+  
+  
+

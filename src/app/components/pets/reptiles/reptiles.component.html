@@ -17,7 +17,7 @@
         </div>
         <div class="reptiles-buttons">
             <mat-card-actions>
-                <button mat-raised-button color="primary" (click)="playSound(animal.slug)">Play Sound</button>
+                <audio controls src="{{ animal.sound }}" type="audio" #audio (play)="play(audio)"></audio>
                 <button mat-raised-button color="primary" (click)="navigate(animal.slug)">See more</button>
             </mat-card-actions>
         </div>

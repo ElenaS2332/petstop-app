@@ -66,12 +66,12 @@ export class SignUpComponent implements OnInit {
     const { name, email, password } = this.signUpForm.value;
     this.authService.signUp(name, email, password).pipe(
       this.toast.observe({
-        success: 'You signed up successfuly',
+        success: 'You signed up successfuly. Login to continue',
         loading: 'Signing up...',
         error: ({ message }) => `${message}`
       })
     ).subscribe(() => {
-      this.router.navigate(['/home']);
+      this.router.navigate(['/login']);
     })
 
   }
